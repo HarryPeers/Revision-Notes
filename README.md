@@ -218,8 +218,10 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 
         public int Id { get; set; }
 
-public class AccessibilityHelper
-    {
+
+ 
+	public class AccessibilityHelper
+    	{
         
 	public float? fontSize { get; set; }
 
