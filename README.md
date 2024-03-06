@@ -294,7 +294,7 @@ Example of pulling data from API dictionary
 
 ## Task 1 - Proposal, Design and Test Plan
 
-##What needs to be included?
+## What needs to be included?
 
 ## Business Context
 For the business context section, I need to explain the scenario. I need to focus on the specific needs of the client, the user and write about the mandatory and potential features that they want to see included in the application.
