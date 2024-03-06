@@ -1,16 +1,3 @@
-# Task 1 (To Do List)
-### Planning and system requirements <br>
-•	Specify the minimum system requirements to run the application. <br>
-  o	Processor <br>
-  o	RAM <br>
-  o	Hard disk space <br>
-  o	Graphics card <br>
-  o	Display <br>
-•	Specify the minimum mobile requirements to run the application. <br>
-  o	Processor <br>
-  o	RAM  
-  o	Android or IOS version   
-  o	Battery capacity  
 ### Pre-Task Research  
 •	Find at least 3 examples of applications that match the type you want to develop.  
 •	State the features they all have in common and how they are used.
@@ -28,6 +15,20 @@ o	Errors: How many errors can the user encounter and how is it handled
 o	Satisfaction: How pleasant looking is design  
 •	Talk about all this in detail for all the websites.  
 •	Talk about empathy map and how you will use it in the design. [Feel, thinks, says, does]  
+
+# Task 1 (To Do List)
+### Planning and system requirements <br>
+•	Specify the minimum system requirements to run the application. <br>
+  o	Processor <br>
+  o	RAM <br>
+  o	Hard disk space <br>
+  o	Graphics card <br>
+  o	Display <br>
+•	Specify the minimum mobile requirements to run the application. <br>
+  o	Processor <br>
+  o	RAM  
+  o	Android or IOS version   
+  o	Battery capacity  
 
 ## Task1A 
 ### The Proposal  
