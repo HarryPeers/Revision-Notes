@@ -176,7 +176,7 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 ## Code Snippets
 
 //Tells the code where the database is
-            string connectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\M2202766\\OneDrive - Middlesbrough College\\Documents\\Year 2\\Week 16\\OSC Mock\\Task 2\\Task2_Code_LL-000013680_Baines_C\\Task2_Code_LL-000013680_Baines_C\\userDetails.mdf; Integrated Security = True; Connect Timeout = 30";
+            string connectionString = "Data Source = mdf file path; Integrated Security = True; Connect Timeout = 30";
 
             SqlConnection sqlConnection = new SqlConnection(connectionString);
 
