@@ -1,4 +1,4 @@
-# Task 1 (Todo-List)
+# Task 1 (To Do List)
 ## Activity A (I) <br>
 ### Planning and system requirements <br>
 •	Specify the minimum system requirements to run the application. <br>
