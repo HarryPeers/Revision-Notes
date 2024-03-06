@@ -1,5 +1,4 @@
 # Task 1 (To Do List)
-## Activity A (I) <br>
 ### Planning and system requirements <br>
 •	Specify the minimum system requirements to run the application. <br>
   o	Processor <br>
@@ -12,7 +11,7 @@
   o	RAM  
   o	Android or IOS version   
   o	Battery capacity  
-### Research  
+### Pre-Task Research  
 •	Find at least 3 examples of applications that match the type you want to develop.  
 •	State the features they all have in common and how they are used.
 • Find out about the legalities involved in making an application like this, Data, permissions and all
@@ -30,7 +29,7 @@ o	Satisfaction: How pleasant looking is design
 •	Talk about all this in detail for all the websites.  
 •	Talk about empathy map and how you will use it in the design. [Feel, thinks, says, does]  
 
-## Activity A (II)  
+## Task1A 
 ### The Proposal  
 •	In the proposal start with a [Motivational type sentence that gives the solution importance  
 •	List what I have been asked to do/ or what the owner wants.  
@@ -62,8 +61,8 @@ o	Create a hierarchy diagram for any main action that can be performed using the
 •	While discussing make sure that you consider all the legal guidelines and regulation pertaining to how you want to develop the solution  
 •	Make sure to break down and explain all the functional non-functional requirements and how they would benefit the software.  
 •	Consider the KPI and user acceptance criteria, The KPI should be something like “The software should run on multiple types of devices” This would evaluate how and if this was net at the end. The user acceptance criteria should be in a user wants and can the user do type of scenario.  
-## Activity B (I)  
-### Visual/ interface designs  
+## Task1B 
+### Visual/interface designs  
 •	For each design create a user interface  
 •	Include a way to demonstrate user journey.  
 •	The design should include justifications of the colours used.  
@@ -77,7 +76,7 @@ o	Create a hierarchy diagram for any main action that can be performed using the
 o	Login in
 o	Registering a new user  
 o	How booking an order would work.  
-• Have a justification of each Algorith and put more context on how it should really work  
+• Have a justification of each Algorithm and put more context on how it should really work  
 •	If needed create a table for each error that might happen for each algorithm and how it would be handled  
 •	Create a Data table [Name, function, Data type and reason] of data that you will use.  
 •	Create diagrams to explain the backend [Data Model].  
@@ -86,7 +85,7 @@ o	Logical
 o	Physical  
 •	Explain how you intend to test this system [Type, Who, data set, when, time, outcome]  
 
-# Task 2  (Todo)
+# Task 2 Prototype (Todo)
 •	[Do your thing :)]  
 •	For the code  
 o	Use a consistent naming convention.  
@@ -116,7 +115,8 @@ o	A table to link to external sites if necessary.
 •	Make sure you use more than one programming language.
 • Ensure to collectt user input no matter how little so you can have something to test 
 • Make sure to add commments to the code that explains the logic of what you are doing
-# Task 3A  
+
+# Task 3A Feedback Gathering  
 •	Get technical and non-technical users.    
 • In the planning stage make sure to plan   
   o Who is your technical and non-technical user  
@@ -136,8 +136,9 @@ o	A table to link to external sites if necessary.
 • The materials should allow for the gathering of high quality feedback for different aspect of the developed prototype  
 • The use of the tools has resulted in feedback that consistently provides the opportunity for evidence- informed further iteration  
 • Quality of communication is effective for both technical and non-technical audiences as a result of consistent use of appropriate techniques, methods and formats  
-• The use of technical language that is consistently appropriate for the intended audience  
-# Task 3B  
+• The use of technical language that is consistently appropriate for the intended audience
+
+# Task 3B Evaluation  
 •	Talk about the key performance indicator in the essence of what the stake holder wanted and what you were able to deliver.  
 • If possible lsit each KPI and state how you have met the requirement  
 • While evaluating give examples and show proof like how that point as applied in the development  
@@ -166,6 +167,7 @@ Add descriptive diagrams like UML, Use case diagram, flowchart… where necessar
 
 
 
+## Timings
 Task 1: 20 hours [Proposal – 24, Design and test plan – 34] <br>
 Task 2: 30 hours [Prototype – 48] <br>
 Task 3a: 15 hours [Feedback – 24] <br>
