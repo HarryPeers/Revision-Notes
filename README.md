@@ -171,3 +171,82 @@ Task 2: 30 hours [Prototype – 48] <br>
 Task 3a: 15 hours [Feedback – 24] <br>
 Task 3b: 2 hours [Evaluation – 15] <br>
 
+
+
+## Code Snippets
+
+//Tells the code where the database is
+            string connectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\M2202766\\OneDrive - Middlesbrough College\\Documents\\Year 2\\Week 16\\OSC Mock\\Task 2\\Task2_Code_LL-000013680_Baines_C\\Task2_Code_LL-000013680_Baines_C\\userDetails.mdf; Integrated Security = True; Connect Timeout = 30";
+
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
+
+//Sets up stored procedure
+            SqlCommand cmd = new SqlCommand("StoredProcedure", sqlConnection);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+
+//Executes stored procedure
+            SqlDataAdapter sd = new SqlDataAdapter(cmd);
+
+sqlConnection.Open();
+sqlConnection.Close();
+
+
+## Stored Procedures
+
+ADD RECORD
+
+CREATE PROCEDURE [dbo].[AddRecord]
+
+(
+	@username nvarchar(50),
+	@password nvarchar(200)
+
+)
+
+as
+
+begin
+
+	Insert into UserDetails values (@username, @password)
+
+End
+
+
+Select all details from database
+
+CREATE PROCEDURE [dbo].[GetUserDetails]
+
+as
+
+begin
+
+select * from UserDetails
+
+End
+
+
+
+
+UPDATE RECORD IN DATABASE
+
+CREATE PROCEDURE [dbo].[UpdateRecord]
+
+(	
+	@StdId int, 
+	@username nvarchar(50),
+	@password nvarchar(200)
+
+)
+as
+
+begin
+
+	update UserDetails
+	set username=@username,
+	password=@password
+	where Id=@StdId
+
+end
+
+
