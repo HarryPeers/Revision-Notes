@@ -249,4 +249,11 @@ begin
 
 end
 
+## Modules
+
+FOR HASHING
+
+BCrypt.Net.BCrypt.Verify
+
+
 
