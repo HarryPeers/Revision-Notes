@@ -307,11 +307,13 @@ UPDATE RECORD IN DATABASE
 
 ## Modules
 
-FOR HASHING
+EXAMPLE OF HASHING
 
 Install module (use using moduleName)
 
-	BCrypt.Net.BCrypt.Verify
+	found = BCrypt.Net.BCrypt.Verify(txtPasswordSignIn.Text, user.password);
+ 
+	string hashedPassword = BCrypt.Net.BCrypt.HashPassword(txtPasswordSignUp.Text);
 
 NewtonSoftJSON
 
