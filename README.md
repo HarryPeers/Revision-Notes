@@ -218,6 +218,32 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 
         public int Id { get; set; }
 
+public class AccessibilityHelper
+    {
+        
+	public float? fontSize { get; set; }
+
+        public User currentUser { get; set; } = null;
+
+        public AccessibilityHelper() { }
+        public AccessibilityHelper(float fontSize)
+        {
+            this.fontSize = fontSize;
+        }
+
+        public void UpdateFontSize(Control.ControlCollection controls)
+        {
+            if (fontSize == null) return;
+
+            foreach (Control control in controls)
+            {
+                control.Font = new System.Drawing.Font(control.Font.Name, (float)fontSize);
+            }
+        }
+
+
+    }
+
  
 
 ## Stored Procedures
