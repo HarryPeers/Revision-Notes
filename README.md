@@ -168,7 +168,7 @@ Add descriptive diagrams like UML, Use case diagram, flowchart… where necessar
 
 
 
-## Timings
+## Timings and Marks
 Task 1: 20 hours [Proposal – 24, Design and test plan – 34] <br>
 Task 2: 30 hours [Prototype – 48] <br>
 Task 3a: 15 hours [Feedback – 24] <br>
