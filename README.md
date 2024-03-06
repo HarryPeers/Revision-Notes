@@ -194,12 +194,20 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 sqlConnection.Open();
 sqlConnection.Close();
 
+## API setup
+public HttpClient httpClient { get; set; }
+public string APIKey = "apikey";
+
+httpClient = new HttpClient();
+
 ## Database and Class File Definitions
 ID IDENTITY
 
 //Gets the name of the method(s) that the ID is used in and assigns the value of the variable.
 
         public int Id { get; set; }
+
+ 
 
 ## Stored Procedures
 
@@ -262,7 +270,15 @@ end
 
 FOR HASHING
 
+Install module (use using moduleName)
 BCrypt.Net.BCrypt.Verify
+
+NewtonSoftJSON
+
+JArray payloadObject = JArray.Parse(payload);
+
+Example of pulling data from API dictionary
+(string)payloadObject["weather"][0]["description"]
 
 
 
