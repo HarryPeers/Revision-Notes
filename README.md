@@ -198,6 +198,7 @@ sqlConnection.Close();
 ID IDENTITY
 
 //Gets the name of the method(s) that the ID is used in and assigns the value of the variable.
+
         public int Id { get; set; }
 
 ## Stored Procedures
