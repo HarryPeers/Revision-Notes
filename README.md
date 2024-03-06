@@ -179,26 +179,30 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 ## Code Snippets
 
 //Tells the code where the database is
-            string connectionString = "Data Source = mdf file path; Integrated Security = True; Connect Timeout = 30";
+            
+	    string connectionString = "Data Source = mdf file path; Integrated Security = True; Connect Timeout = 30";
 
             SqlConnection sqlConnection = new SqlConnection(connectionString);
 
 //Sets up stored procedure
-            SqlCommand cmd = new SqlCommand("StoredProcedure", sqlConnection);
+            
+	    SqlCommand cmd = new SqlCommand("StoredProcedure", sqlConnection);
 
             cmd.CommandType = CommandType.StoredProcedure;
 
 //Executes stored procedure
-            SqlDataAdapter sd = new SqlDataAdapter(cmd);
+            
+	SqlDataAdapter sd = new SqlDataAdapter(cmd);
 
-sqlConnection.Open();
-sqlConnection.Close();
+	sqlConnection.Open();
+	sqlConnection.Close();
 
 ## API setup
-public HttpClient httpClient { get; set; }
-public string APIKey = "apikey";
 
-httpClient = new HttpClient();
+	public HttpClient httpClient { get; set; }
+	public string APIKey = "apikey";
+
+	httpClient = new HttpClient();
 
 ## Database and Class File Definitions
 ID IDENTITY
@@ -216,7 +220,8 @@ ADD RECORD
 CREATE PROCEDURE [dbo].[AddRecord]
 
 (
-	@username nvarchar(50),
+	
+ 	@username nvarchar(50),
 	@password nvarchar(200)
 
 )
@@ -238,7 +243,7 @@ as
 
 begin
 
-select * from UserDetails
+	select * from UserDetails
 
 End
 
@@ -250,7 +255,8 @@ UPDATE RECORD IN DATABASE
 CREATE PROCEDURE [dbo].[UpdateRecord]
 
 (	
-	@StdId int, 
+	
+ 	@StdId int, 
 	@username nvarchar(50),
 	@password nvarchar(200)
 
@@ -275,10 +281,11 @@ BCrypt.Net.BCrypt.Verify
 
 NewtonSoftJSON
 
-JArray payloadObject = JArray.Parse(payload);
+	JArray payloadObject = JArray.Parse(payload);
 
 Example of pulling data from API dictionary
-(string)payloadObject["weather"][0]["description"]
+
+	(string)payloadObject["weather"][0]["description"]
 
 
 
