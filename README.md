@@ -205,7 +205,7 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 	httpClient = new HttpClient();
 
 ## Database and Class File Definitions
-ID IDENTITY
+	ID IDENTITY
 
 //Gets the name of the method(s) that the ID is used in and assigns the value of the variable.
 
@@ -217,67 +217,68 @@ ID IDENTITY
 
 ADD RECORD
 
-CREATE PROCEDURE [dbo].[AddRecord]
+	CREATE PROCEDURE [dbo].[AddRecord]
 
-(
+	(
 	
  	@username nvarchar(50),
 	@password nvarchar(200)
 
-)
+	)
 
-as
+	as
 
-begin
+	begin
 
 	Insert into UserDetails values (@username, @password)
 
-End
+	End
 
 
 Select all details from database
 
-CREATE PROCEDURE [dbo].[GetUserDetails]
+	CREATE PROCEDURE [dbo].[GetUserDetails]
 
-as
+	as
 
-begin
+	begin
 
 	select * from UserDetails
 
-End
+	End
 
 
 
 
 UPDATE RECORD IN DATABASE
 
-CREATE PROCEDURE [dbo].[UpdateRecord]
+	CREATE PROCEDURE [dbo].[UpdateRecord]
 
-(	
+	(	
 	
  	@StdId int, 
 	@username nvarchar(50),
 	@password nvarchar(200)
 
-)
-as
+	)
+	as
 
-begin
+	begin
 
 	update UserDetails
 	set username=@username,
 	password=@password
 	where Id=@StdId
 
-end
+	end
 
 ## Modules
 
 FOR HASHING
 
 Install module (use using moduleName)
-BCrypt.Net.BCrypt.Verify
+
+	BCrypt.Net.BCrypt.Verify
 
 NewtonSoftJSON
 
