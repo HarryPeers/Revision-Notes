@@ -204,6 +204,13 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 
 	httpClient = new HttpClient();
 
+## Pulling data from API example using NewtonSoft
+
+	HttpResponseMessage response = await httpClient.GetAsync(fullUrl);
+	string payload = await response.Content.ReadAsStringAsync();
+
+	JObject payloadObject = JObject.Parse(payload);
+
 ## Database and Class File Definitions
 	ID IDENTITY
 
@@ -282,11 +289,10 @@ Install module (use using moduleName)
 
 NewtonSoftJSON
 
+	string payload = await response.Content.ReadAsStringAsync();
+
 	JArray payloadObject = JArray.Parse(payload);
 
-Example of pulling data from API dictionary
-
-	(string)payloadObject["weather"][0]["description"]
 
 
 
