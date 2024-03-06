@@ -191,6 +191,8 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 sqlConnection.Open();
 sqlConnection.Close();
 
+## Database Definition
+ID IDENTITY
 
 ## Stored Procedures
 
