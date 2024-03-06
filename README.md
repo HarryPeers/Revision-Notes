@@ -194,8 +194,11 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 sqlConnection.Open();
 sqlConnection.Close();
 
-## Database Definition
+## Database and Class File Definitions
 ID IDENTITY
+
+//Gets the name of the method(s) that the ID is used in and assigns the value of the variable.
+        public int Id { get; set; }
 
 ## Stored Procedures
 
