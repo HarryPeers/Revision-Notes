@@ -291,9 +291,8 @@ Example of pulling data from API dictionary
 
 
 ## Checklist Notes
-Task 1 - Proposal, Design and Test Plan
 
-Proposal
+## Task 1 - Proposal, Design and Test Plan
 
 What needs to be included?
 
