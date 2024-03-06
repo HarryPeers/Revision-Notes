@@ -1,4 +1,4 @@
-### Pre-Task Research  
+### OCC Pre-Task Research  
 •	Find at least 3 examples of applications that match the type you want to develop.  
 •	State the features they all have in common and how they are used.
 • Find out about the legalities involved in making an application like this, Data, permissions and all
