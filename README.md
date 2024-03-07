@@ -313,6 +313,68 @@ UPDATE RECORD IN DATABASE
 	string.IsNullOrWhiteSpace
 	string.Empty
 
+## Accessibility Features
+
+## Get high contrast using stored procedure (returning data from database)
+	SqlCommand sqlCommand = new SqlCommand("GetHighContrast", sqlConnection);
+	sqlCommand.CommandType = CommandType.StoredProcedure;
+	
+	sqlCommand.Parameters.AddWithValue("Username", username);
+	
+	sqlConnection.Open();
+	    
+	SqlDataReader highContrastReturned = sqlCommand.ExecuteReader();
+	if (highContrastReturned.Read())
+	{
+		if (highContrastReturned[0].ToString() == "1")
+		{
+		this.BackColor = Color.FromArgb(0, 0, 15);
+		} 
+		else
+		{
+		this.BackColor = Color.FromArgb(35,35,80);
+	    	}
+	    }
+	    
+	sqlConnection.Close();
+
+## Change font size of common controls
+
+Accessibility Class
+
+	 public class AccessibilityHelper
+	 {
+	     public float? fontSize { get; set; }
+	
+	     public User currentUser { get; set; } = null;
+	
+	     public AccessibilityHelper() { }
+	     public AccessibilityHelper(float fontSize)
+	     {
+	         this.fontSize = fontSize;
+	     }
+	
+	     public void UpdateFontSize(Control.ControlCollection controls)
+	     {
+	         if (fontSize == null) return;
+	
+	         foreach (Control control in controls)
+	         {
+	             control.Font = new System.Drawing.Font(control.Font.Name, (float)fontSize);
+	         }
+	     }
+	
+	
+	 }
+
+Assign font size of common controls in each form
+
+	public AccessibilityHelper accessibilityHelper { get; set; }
+	
+	this.accessibilityHelper = accessibilityHelper;
+	accessibilityHelper.UpdateFontSize(this.Controls);
+
+
 ## Modules
 
 EXAMPLE OF HASHING
