@@ -191,10 +191,11 @@ Task 3b: 2 hours [Evaluation – 15] <br>
             cmd.CommandType = CommandType.StoredProcedure;
 
 //Executes stored procedure
-            
-	SqlDataAdapter sd = new SqlDataAdapter(cmd);
 
 	sqlConnection.Open();
+
+ 	command.ExecuteNonQuery();
+  
 	sqlConnection.Close();
 
 ## API setup
@@ -306,6 +307,11 @@ UPDATE RECORD IN DATABASE
 	where Id=@StdId
 
 	end
+
+## Methods of input validation
+
+string.IsNullOrWhiteSpace
+string.Empty
 
 ## Modules
 
