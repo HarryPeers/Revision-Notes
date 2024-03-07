@@ -310,8 +310,8 @@ UPDATE RECORD IN DATABASE
 
 ## Methods of input validation
 
-string.IsNullOrWhiteSpace
-string.Empty
+	string.IsNullOrWhiteSpace
+	string.Empty
 
 ## Modules
 
