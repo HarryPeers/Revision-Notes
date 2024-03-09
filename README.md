@@ -86,7 +86,7 @@ o	Logical
 o	Physical  
 •	Explain how you intend to test this system [Type, Who, data set, when, time, outcome]  
 
-# Task 2 Prototype (Todo)
+# Task 2 Prototype (To Do List)
 •	For the code  
 o	Use a consistent naming convention.  
 o	Indent properly.  
