@@ -206,10 +206,18 @@ Task 3b: 2 hours [Evaluation – 15] <br>
 
 ## Pulling data from API example using NewtonSoft
 
-	HttpResponseMessage response = await httpClient.GetAsync(fullUrl);
+	HttpResponseMessage response = await httpClient.GetAsync($"fullUrl{APIKey}");
 	string payload = await response.Content.ReadAsStringAsync();
 
 	JObject payloadObject = JObject.Parse(payload);
+
+ 	#returns 
+ 	return new List<float>()
+ 	{
+     		(float)payloadObject[0]["lat"],
+     		(float)payloadObject[0]["lon"]
+ 	};
+
 
 ## Database and Class File Definitions
 	ID IDENTITY
