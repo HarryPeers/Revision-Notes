@@ -231,6 +231,7 @@ Entity Relationship Diagrams - keys, relationships, data fields
 
 ## Database and Class File Definitions
 	ID IDENTITY
+ 	HIGHCONTRAST BIT
 
 //Gets the name of the method(s) that the ID is used in and assigns the value of the variable.
 
@@ -324,6 +325,24 @@ UPDATE RECORD IN DATABASE
 	where Id=@StdId
 
 	end
+
+GET HIGH CONTRAST
+
+	CREATE PROCEDURE GetHighContrast
+ 	(
+	@Username NVARCHAR(50)
+	)
+	AS
+ 
+	BEGIN
+	    
+    	SELECT @HighContrast = HighContrast
+    	FROM Users
+    	WHERE Username = @Username
+	
+	SELECT @HighContrast AS HighContrastValue
+ 
+	END
 
 ## Methods of input validation
 
