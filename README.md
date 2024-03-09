@@ -1,3 +1,10 @@
+
+## General notes  
+With every benefit listed, constraints must be considered.  
+Every decision made should be made based on how the stakeholder would benefit from it, this should be mentioned when evaluating.  
+Add descriptive diagrams like UML, Use case diagram, flowchart… where necessary.  
+
+
 ### OCC Pre-Task Research  
 •	Find at least 3 examples of applications that match the type you want to develop.  
 •	State the features they all have in common and how they are used.
@@ -160,12 +167,6 @@ o	A table to link to external sites if necessary.
 •	Don’t lie.   
 
 
-## General notes  
-With every benefit listed, constraints must be considered.  
-Every decision made should be made based on how the stakeholder would benefit from it, this should be mentioned when evaluating.  
-Add descriptive diagrams like UML, Use case diagram, flowchart… where necessary.  
-
-
 
 ## Timings and Marks
 Task 1: 20 hours [Proposal – 24, Design and test plan – 34] <br>
@@ -173,6 +174,15 @@ Task 2: 30 hours [Prototype – 48] <br>
 Task 3a: 15 hours [Feedback – 24] <br>
 Task 3b: 2 hours [Evaluation – 15] <br>
 
+## Diagrams
+
+Use case diagrams - actors and the system
+
+User journey mapping diagram - show how the user, the system and server interact with each other as the user moves and performs actions through the application.
+
+Data dictionaries - Field name, data type, field size, example of stored data, primary/foreign key, validation column.
+
+Entity Relationship Diagrams - keys, relationships, data fields
 
 
 ## Code Snippets
