@@ -51,7 +51,7 @@ o	Satisfaction: How pleasant looking is design
 •	Using a quality model like FURPS (Functionality, usability, Reliability, Performance and supportability) explain how your proposal will meet all this.  
 •	In the functionality, make sure to list the functional and non-functional requirements.  
 •	State where the website will link to if any.  
-•	List the accessibility features you might consider.  
+•	List the accessibility features you might consider. Error messages need to be helpful and have an error icon. Visual 		hierarchies etc. 
 •	Create a Hierarchy diagram for  
 o	How a user would log in / Create an account   
 o	Create a hierarchy diagram for any main action that can be performed using the application / Create a user journey diagram for the process.  
@@ -453,7 +453,6 @@ For the decomposition section, I need to go into detail for each functional and 
 
 ## Accessibility Features
 For the accessibility features section, I need to list and give descriptions on accessibility features. An accessibility feature is something that is designed to help people who are more disadvantaged than others to use technology more easily.
-
 ## Key Performance Indicators
 For the key performance indicator section, I need to list some KPIs for the application and how they can be measured and what they indicate. A key performance indicator is a measure to evaluate the success of something.
 
@@ -483,6 +482,7 @@ I need to create visual designs of my program that appeal to both a technical an
 
 ## Test Strategy/Plan
 I need to create a test strategy which outlines how I am going to test the solution after it is developed. I need to showcase the order in which components are going to be tested and use different types of test data.
+
 
 
 
