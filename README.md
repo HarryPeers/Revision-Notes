@@ -67,7 +67,7 @@ o	Create a hierarchy diagram for any main action that can be performed using the
 •	Justify your proposal adequately in context to how this is what the stakeholder would want and your rationale behind such decisions.  
 •	When you have stated all the positives remember to list the potential risks that are involved and how you intend to stop this from having any adverse effects on the solution  
 •	While discussing make sure that you consider all the legal guidelines and regulation pertaining to how you want to develop the solution  
-•	Make sure to break down and explain all the functional non-functional requirements and how they would benefit the software.  
+•	Make sure to break down and explain all the functional non-functional requirements and how they would benefit the software. Frontend and backend needs. 
 •	Consider the KPI and user acceptance criteria, The KPI should be something like “The software should run on multiple types of devices” This would evaluate how and if this was net at the end. The user acceptance criteria should be in a user wants and can the user do type of scenario.  
 ## Task1B 
 ### Visual/interface designs  
