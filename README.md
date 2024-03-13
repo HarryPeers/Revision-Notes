@@ -486,3 +486,22 @@ I need to create a test strategy which outlines how I am going to test the solut
 
 
 
+
+
+
+
+
+ToDo
+
+Description of the proposed solution
+Functional requirements
+Non-functional requirements
+Accesibility issues to be considered
+Hierachy diagram
+Different user privelage types
+User requirements
+	Features
+	Priority
+	Justification
+
+
